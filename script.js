@@ -25,6 +25,9 @@ for (let i = 0; i < puzzlePieces.length; i++) {
 }
 
 // Define a function to check if the puzzle is solved
+
+// Except it's the only part that doesn't work as intended. Currently is compares position of images relative to the starting positions after shuffle
+// instead of the order from imageUrls. 
 function isPuzzleSolved() {
   const pieces = document.querySelectorAll('.puzzle-piece');
   for (let i = 0; i < pieces.length; i++) {
