@@ -25,7 +25,7 @@ body {
 }
 
 #reset-btn {
-  display: block;
+  width: 30%;
   margin: 20px auto;
   padding: 10px 20px;
   font-size: 18px;
